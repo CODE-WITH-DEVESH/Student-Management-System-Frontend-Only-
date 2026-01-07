@@ -60,7 +60,7 @@ This project helps manage student records dynamically and demonstrates real-worl
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/student-management-system.git
+   git clone https://github.com/CODE-WITH-DEVESH/Student-Management-System-Frontend-Only
    ```
 
 2. Open `index.html` in your browser
@@ -88,3 +88,4 @@ This project helped me understand how JavaScript works in real-world application
 ## ⭐ Support
 
 If you like this project, don’t forget to **star ⭐ the repository**!
+
