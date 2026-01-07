@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System (Frontend Only)</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Write With ChatGPT -->
+</head>
+<body>
+
+    <h2>Student Management System (Frontend Only)</h2>
+    <form id="studentForm">
+        <input type="text" id="stuname" placeholder="Enter the Students Name">
+
+        <select  id="stuCourse">
+            <option value="">Select Course</option>
+            <option value="Web">Web Development</option>
+            <option value="Data">Data Science</option>
+
+        </select>
+        <input type="text" id="stucity" placeholder="Enter City">
+        <input type="number" id="stuFees" placeholder="Fees">
+
+
+        <button>Add Student</button>
+
+    </form>
+    <p id="totalCount">Total Student: 0</p>
+    <p id="totalFees">Total Fees :0</p>
+
+
+    <button id="webBtn">Web Students </button>
+    <button id="dataBtn">Data Students </button>
+    <div id="studentList"></div>
+    
+</body>
+<script src="app.js"></script>
+</html>
